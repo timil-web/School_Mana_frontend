@@ -4,7 +4,7 @@ import { useState } from 'react';
 import SchoolCard from './SchoolCard';
 import Statistics from './Statistics';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+const API_BASE_URL = import.meta.env.API_BASE_URL;
 
 
 const SchoolSearch = ({ onAlert }) => {
