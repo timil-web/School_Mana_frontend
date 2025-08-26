@@ -3,7 +3,7 @@ import Alert from './components/Alert';
 import  AddSchoolForm from './components/AddSchoolForm';
 import SchoolSearch from './components/SchoolSearch';
 
-const API_BASE_URL = 'http://localhost:3000';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const App = () => {
   const [alert, setAlert] = useState(null);
